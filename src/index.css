@@ -1,0 +1,58 @@
+body,html,#root ,.App{
+  margin: 0;
+  font-family:  'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height:100%;
+}
+.App{
+  min-height: 500px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Main {
+  height:100%;
+  background: #F9EFFB;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*#####    Sign in     #####*/
+.SigninContainer {
+  flex-basis:28%;
+  height:auto;
+  padding:2rem;
+  background: #ffffff;
+  border-radius:10px;
+  /*box-shadow: 0px 0px 10px 0px #000;*/
+}
+.SignupContainer{
+  flex-basis:28%;
+  height:auto;
+  padding:2rem;
+  background: #ffffff;
+  border-radius:10px;
+  /*box-shadow: 0px 0px 10px 0px #000;*/
+}
+.pp-btn {
+  color: #fff;
+  background-color:#9E2CB5;
+  border-color:#9E2CB5;
+}
+@media (max-width:700px){
+  .SigninContainer {
+    flex-basis:100%;
+  }
+}
+
+@media (max-height:500px){
+  .SignupContainer {
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+}
+
